@@ -1,11 +1,17 @@
 # SnakeGameAi
-Implementation of a Feedforward Neural Network (FNN) with Python and the Pytorch machine learning library to make an Ai play Snake Game.
+Implementation of a Feedforward Neural Network (FNN) with Python and the Pytorch machine learning library to make an Ai play Snake Game. Has a learning progress graph incorporated using matplotlib and the snake game is made using the pygame library.
 
-It's capable of scoring a record around 50 Points, maybe 70 after 100 games but also caps it's learning around that too, so leaving it for more games won't make it improve anymore.
+The speed of the game can be increased or decreased by 10 using the UP and DOWN arrow-keys or by 100 using the RIGHT or LEFT arrow-keys.
 
-Has a learning progress graph incorporated using matplotlib and the snake game is made using the pygame library.
+Scores an average of 30 after 120+ games, doesn't improve after that. Has scored a max of 77. 
 
-The speed of the game can be increased or decreased by 10 using the UP and DOWN arrows or by 100 using the RIGHT or LEFT arrows.
+How to run
+-
+To run the program you need to install Pytorch and the requirements of pytorch as well as the matplotlib and pygame libraries.
+
+400+ Games Stats
+-
+![image](https://github.com/user-attachments/assets/b75601ff-17e0-4348-b3bf-929a89a410a1)
 
 Footage
 -
